@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.1"
+gem "jekyll"
 
 gem "jekyll-theme-hydejack", "~> 9.1"
 
@@ -26,15 +26,10 @@ gem "jekyll-theme-hydejack", "~> 9.1"
 
 
 # A JavaScript runtime for ruby that helps with running the katex gem above.
-gem "duktape"
-
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-include-cache", group: :jekyll_plugins
+#gem "duktape"
 
 group :jekyll_plugins do
-  gem "jekyll-default-layout"
   gem "jekyll-feed"
-  gem "jekyll-optional-front-matter"
   gem "jekyll-paginate"
   gem "jekyll-readme-index"
   gem "jekyll-redirect-from"
@@ -43,6 +38,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-titles-from-headings"
   gem "jekyll-include-cache"
+  gem "github-pages", "~> 215"
 
   # Non-Github Pages plugins:
   gem "jekyll-last-modified-at"
