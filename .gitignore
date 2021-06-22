@@ -3,6 +3,7 @@ _gh_pages
 _site
 _drafts
 .ruby-version
+*.lock
 
 # Numerous always-ignore extensions
 *.diff

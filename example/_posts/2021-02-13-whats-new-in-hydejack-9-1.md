@@ -14,7 +14,7 @@ invert_sidebar: true
 
 # What's New in Hydejack 9.1?
 
-What's New in Hydejack 9.1?
+Project Space
 
 * toc
 {:toc}
