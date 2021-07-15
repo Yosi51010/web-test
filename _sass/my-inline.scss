@@ -1,28 +1,43 @@
-// You can add CSS rules here that will be inlined into each document.
-// .sidebar a {
-//   text-shadow: rgba(0, 0, 0, 0.25) 0.1rem 0.1rem 0.15rem;
-// 
-
-.nav-btn-bar {
-    background-color: #282f31;
+//v3
+html {
+    --gray: #f36815;
+    --gray-bg: rgba(0,0,0,0.025);
+    --gray-text: #fac19f;
+    --menu-text: #bbb;
+    --body-color: #FDE8E5;
+    --body-bg: #221d1d;
+    --border-color: #ebebeb;
 }
 
-#_navbar  {
-    background-color: #282f31;
-}
+//v2
+// html {
+//     --gray: #f0dac5;
+//     --gray-bg: rgba(0,0,0,0.025);
+//     --gray-text: #f0dac5;
+//     --menu-text: #bbb;
+//     --body-color: #FDE8E5;
+//     --body-bg: #6e2c39;//#5b132b;
+//     --border-color: #ebebeb;
+// }
 
-body {
-    background-color: #282f31;
-    color: #ccc;
-} .post-date, hy-push-state
+//v1
+// html {
+//     --gray: #D75861;
+//     --gray-bg: rgba(0,0,0,0.025);
+//     --gray-text: #FE7E75;
+//     --menu-text: #bbb;
+//     --body-color: #FDE8E5;
+//     --body-bg: #3a1e1e;
+//     --border-color: #ebebeb;
+// }
 
-h1, h2, h3, h4, h5, h6, p, a {
-    color: #ccc
-}
-
-.post-date, .note-sm {
-    color: #ccc
-} 
-hy-push-state a {
-    color: #ccc
-}
+//original
+//html{
+// --gray: #777;
+// --gray-bg: rgba(0,0,0,0.025);
+// --gray-text: #666;
+// --menu-text: #bbb;
+// --body-color: #333;
+// --body-bg: #fff;
+// --border-color: #ebebeb;
+//}
