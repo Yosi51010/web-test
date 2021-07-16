@@ -1,43 +1,54 @@
-//v3
-html {
-    --gray: #f36815 !important;
-    --gray-bg: rgba(0,0,0,0.025);
-    --gray-text: #fac19f  !important;
-    --menu-text: #bbb;
-    --body-color: #FDE8E5;
-    --body-bg: #221d1d !important;
-    --border-color: #ebebeb;
-}
+//v1
+// html {
+//     --gray: #05F2DB !important; //special text
+//     --gray-bg: rgba(0,0,0,0.025);
+//     --gray-text: #0477BF  !important; 
+//     --menu-text: #bbb;
+//     --body-color: #fff !important; //most text
+//     --body-bg: #12222e !important; //background
+//     --border-color: #ebebeb;
+// }
 
 //v2
 // html {
-//     --gray: #f0dac5;
-//     --gray-bg: rgba(0,0,0,0.025);
-//     --gray-text: #f0dac5;
+//     --gray: #F2955E  !important; //special text
+//     --gray-bg: rgba(7, 6, 6, 0.025);
+//     --gray-text: #F2BA52  !important; 
 //     --menu-text: #bbb;
-//     --body-color: #FDE8E5;
-//     --body-bg: #6e2c39;//#5b132b;
+//     --body-color: #fff !important; //most text
+//     --body-bg: #2c2922 !important; //background
 //     --border-color: #ebebeb;
 // }
 
-//v1
+//v3
+html {
+    --gray: #F2A663 !important; //special text
+    --gray-bg: rgba(0,0,0,0.025);
+    --gray-text: #F29966  !important; 
+    --menu-text: #bbb;
+    --body-color: #fff !important; //most text
+    --body-bg: #1b252e !important; //background
+    --border-color: #ebebeb;
+}
+
+//v4
 // html {
-//     --gray: #D75861;
+//     --gray: #FF4F4F !important; //special text
 //     --gray-bg: rgba(0,0,0,0.025);
-//     --gray-text: #FE7E75;
+//     --gray-text: #F29188  !important; 
 //     --menu-text: #bbb;
-//     --body-color: #FDE8E5;
-//     --body-bg: #3a1e1e;
+//     --body-color: #F2F2F2 !important; //most text
+//     --body-bg: #012736 !important; //background
 //     --border-color: #ebebeb;
 // }
 
-//original
-//html{
-// --gray: #777;
-// --gray-bg: rgba(0,0,0,0.025);
-// --gray-text: #666;
-// --menu-text: #bbb;
-// --body-color: #333;
-// --body-bg: #fff;
-// --border-color: #ebebeb;
-//}
+//v5
+// html {
+//     --gray: rgb(252, 217, 121) !important; //special text
+//     --gray-bg: rgba(0,0,0,0.025);
+//     --gray-text: #FFDBA4  !important; 
+//     --menu-text: #bbb;
+//     --body-color: #F2F2F2 !important; //most text
+//     --body-bg: #016191 !important; //background
+//     --border-color: #ebebeb;
+// }
