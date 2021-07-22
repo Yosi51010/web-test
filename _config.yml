@@ -28,8 +28,8 @@ description:           >
   Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
   with a focus on personal sites that are meant to impress.
 
-# A shorter description for the sidebar.
-tagline:               A chronicle of the joys and perils that accompany STEM projects
+# A shorter description for the sidebar. // old A chronicle of the joys and perils that accompany STEM projects
+tagline:               The site that starts projects with the troubleshooting section!
 
 # A list of keywords for your blog
 keywords:              []
@@ -53,8 +53,11 @@ menu:
   #   url:               /example/
   - title:             Projects
     url:               /projects/
-  # - title:             About
-  #   url:               /about/
+  - title:             About
+    url:               /about/
+  - title:             Documentation
+    url:               /docs/
+  
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -163,6 +166,7 @@ kramdown:
   math_engine:         mathjax
   math_engine_opts:    {}
   footnote_backlink:   '&#x21a9;&#xfe0e;'
+  parse_block_html: true
 
 
 # 3rd Party Integrations
@@ -298,9 +302,6 @@ collections:
     permalink:         /tag-:name/
     output:            true
 
-  projects:
-    permalink:         /projects/:path/
-    output:            true
 
 
 # File inclusion/exclusion
